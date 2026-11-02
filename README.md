@@ -19,7 +19,7 @@ pip install -e .
 from devtoolkit import chunk_list, slugify, truncate
 
 slugify("Hello World!")            # -> "hello-world"
-truncate("a very long sentence", 10) # -> "a very l..."
+truncate("a very long sentence", 10) # -> "a very..."
 chunk_list([1, 2, 3, 4, 5], 2)      # -> [[1, 2], [3, 4], [5]]
 ```
 
